@@ -28,4 +28,4 @@ and if you have none of them it will download them one by one
 
 
 # Done!
-you can now use this tool just enter your bot token and the discord server you want to destroy
+you can now use this tool just enter your bot token and the discord server ID you want to destroy
