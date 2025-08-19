@@ -5,7 +5,7 @@ let bot = {}
 
 let socket1
 
-let token = "Bot MTQwNTI4Mzc0NzIyNTUzNDcwOA.GCRFsA.mU7CMURmg0garIKhgBP72ZW5F_Mo-Kg25qxBOU"
+let token = ""
 
 
 //create channel
