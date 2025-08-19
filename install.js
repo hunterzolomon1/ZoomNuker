@@ -27,6 +27,11 @@ setTimeout(() => {
                 console.log("missing ws package... installing automatically")
                 babyprocess.exec("npm install ws")
             }else console.log("ws is already installed")
+        }else{
+            console.log("no packages found. installing all one by one")
+            babyprocess.exec("npm install electron")
+            babyprocess.exec("npm install express")
+            babyprocess.exec("npm install ws")
         }
     })
 }, 4000);
