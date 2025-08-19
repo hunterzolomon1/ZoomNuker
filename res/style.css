@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(27, 27, 27);
+    cursor: crosshair
+}
+#logs{
+    color: green;
+    font:bolder;
+    font-size: 16;
+    background: transparent;
+    outline: none;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+
+@font-face {
+    font-family: horrorfont;
+    src: url("font.ttf");
+}
+
+
+button{
+    border:none;
+    color: white;
+    background-color: rgb(78, 0, 0);
+    font-family: horrorfont;
+    font-size: 20;
+    padding: 10px;
+    width:fit-content;
+    height: fit-content;
+    box-shadow: 0 0 1px white;
+    outline: none;
+    transition: box-shadow, background-color, 300ms;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+button:hover{
+    box-shadow: 0 0 10px white;
+    background-color: rgb(190, 0, 0);
+    cursor:grab
+}
+
+
+#actionsmenu{
+    overflow-y: auto;
+    scrollbar-width: none;
+    overflow-x: hidden;
+}
+
+
+input{
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5px;
+    width: 90%;
+    height: 50px;
+    font: menu;
+    font-size: 14;
+    padding: 15px;
+    outline: none;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-shadow: 0 0 5px green;
+    border: none;
+    border-radius: 15px
+}
+
+
+
+@keyframes fade {
+    from{opacity: 0%;}to{opacity: 100%;}
+}
+
+#name,#count,#content,#actionbutton{
+    animation: fade 1s;
+}
